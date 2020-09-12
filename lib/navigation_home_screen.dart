@@ -37,10 +37,10 @@ class _NavigationHomeScreenState extends State<NavigationHomeScreen> {
             drawerWidth: MediaQuery.of(context).size.width * 0.75,
             onDrawerCall: (DrawerIndex drawerIndexdata) {
               changeIndex(drawerIndexdata);
-              //callback from drawer for replace screen as user need with passing DrawerIndex(Enum index)
+              //从drawer回调以根据用户需要替换屏幕并传递drawer index（枚举索引）
             },
             screenView: screenView,
-            //we replace screen view as we need on navigate starting screens like MyHomePage, HelpScreen, FeedbackScreen, etc...
+            //我们替换屏幕视图，因为我们需要导航启动屏幕，如我的主页，帮助屏幕，反馈屏幕，等等。。。
           ),
         ),
       ),
